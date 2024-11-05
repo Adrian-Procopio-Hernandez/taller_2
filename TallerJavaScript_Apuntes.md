@@ -58,10 +58,11 @@ Ad Nasser
 
 ### enlaces 
 [youtube](https://www.youtube.com)
+
 [enlace a google](https://www.google.com)
 
 ### imagenes
-![texto alternativo] (URLdelaimagen)
+![texto alternativo](URLdelaimagen)
 
 ### tablas
 |columna 1 |columna 2|columna 3|
