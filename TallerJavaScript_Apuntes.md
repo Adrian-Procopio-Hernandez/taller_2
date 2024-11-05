@@ -11,6 +11,8 @@ la gran simpleza de su sintaxis hizo que tuviera una rapida adopcion y popularid
 actualmente aparte de permitir generar contenido html de forma dinamica, tambien se emplea (casi de forma estandar)
 para la creacion de documentacion tecnica y con la proliferacion de la arquitectura JAM Stack para la creacion de sitios estaticos a traves de herramientas de tipo SSG(static site generator) y ssr (sergey side rendering) como hugo, gatsby, eleventy, next js, sergey-->
 
+<!--adrian procopio hernandez-->
+
 ### conocer sintaxis Markdown
 
 ### 1.-parrafos
@@ -82,10 +84,63 @@ en javascript  una variables se define asi:
 pero si queremos sacar un bloque completo de codigo utilizamos':
 
 ```js
+//asi se utilizan los comentarios en javascript de una sola linea
+console.log("bienvenidos al mundo de la programacion fronted con javascript");
+
+console.log("esta es otra linea" + "y se concatena con el +");
+
+/*este es un comentario de mas de una linea*/
+
+/*en javascript no existe un compilador dado que es un kenguaje interpretado. es por ello que tenemos wue utilizar la instruccion console.
+log para monitorear el avance y flujo de la logica que implementamos. sin embargo chrome ofrece unas herramientas para revisar los errores.*/
+
+//ahora vamos a trabajar con declracion de variables:
+
 let estudiante="juan perez";
 let edad=19;
 let isestudiante=true;
 let calificacion=90.0;
+
+let num1=5;
+let num2=10;
+
+console.log("estudiante: "+ estudiante);
+console.log("edad: "+ edad);
+console.log("estudia?: "+ isestudiante);
+console.log(typeof calificacion);
+console.log( ` El promedio global del estudiante es ${calificacion} ` );
+
+console.log("la suma es: "+(num1+num2));
+console.log("la resta es: "+(num1-num2));
+console.log("la multiplicacion es: "+(num1*num2));
+console.log("la division es: "+(num1/num2));
+
+/*let val1;
+let val2;
+val1=prompt("ingresa el primer numero");
+val2=prompt("ingresa el segundo numero");
+
+let nume1=parseint(val1);
+let nume2=parseint(val2);
+    console.log("la suma es: " +  (nume1+nume2));
+
+/*javascript es un lenguaje debilmente tipeado, esto sognifica que no es estricto en la decalaracion de tipos de datos. es decir, no fuerza 
+a que incialmente digas el tipo de dato de la variable. y esta ùede cambiar en el transcurso de logica por totro tipo de datos degun sea la necesidad.*/
+
+//estructura de control
+//if, else if, else, switch
+//estas estructuras permiten ejecutar bloques de codigo segun el resultado de una condicion.
+
+/*let edad2=17;
+
+    if(iEdad >=18){
+        console.log("eres un adulto y debes registrarte en el SAT");
+    }
+    if(iEdad >=18){
+        console.log("eres un adulto y debes registrarte en el SAT");
+    }else{
+        console.log("todavia no pagaras impuestos");
+    }
 
 //1 operadores aritmeticos
 let A=10;
